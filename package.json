@@ -1,0 +1,12 @@
+{
+  "name": "unikorn.io",
+  "version": "0.0.1",
+  "author": "wsmind",
+  "main": "app.js",
+  "dependencies": {
+    "gift": "~0.3.0",
+    "express": "~4.0.0",
+    "body-parser": "~1.0.2",
+    "errorhandler": "~1.1.1"
+  }
+}
