@@ -32,7 +32,7 @@ module.exports.initialize = function(callback) {
 
 // start web server only when not running the tests
 if (process.env.NODE_ENV != "test") {
-  module.exports.initialize(function(err) {
+  module.exports.initialize(function(err, app) {
     if (err) throw err
     
     var server = http.createServer(app)
